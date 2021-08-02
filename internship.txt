@@ -1,0 +1,12 @@
+
+
+CREATE DATABASE internship;
+
+CREATE TABLE movies(Film_name VARCHAR(20),Actors VARCHAR(30),name_of_director VARCHAR(20),date_of_release INT(4));
+INSERT INTO movies VALUES('3 idiots','Amir khan,R madhavan, Sharman joshi','Rajkumar Hirani', 2009);
+INSERT INTO movies VALUES('Zindgi na milegi dhobara','Hrithik roshan,Farhan akthar,Abhay deol','Zoya akhtar', 2011);
+INSERT INTO movies VALUES('Padmavat','Shahid Kapoor, Ranveer singh','Sanjay leela bansali', 2018);
+INSERT INTO movies VALUES('Dangal','Amir khan','Nitesh Tiwari', 2016);
+INSERT INTO movies VALUES('slumdog millionaaire','Dev Patel, Irrfan Khan','Danny boyle', 2008);
+SELECT * FROM movies;
+SELECT * FROM movies WHERE Actors='Amir Khan';
